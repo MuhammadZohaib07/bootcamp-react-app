@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Dinner() {
-    return (
+function Dinner(props) {
+    return(
         <div>
-            <h1>today i am going to have {props.DishName}</h1>
-            <h2>after that i will have {props.SweetDish}</h2>
+            <h1>today i will have {props.DishName}</h1>
+            <h1>after that i will have {props.SweetDish}</h1>
         </div>
     )
 }
